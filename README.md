@@ -49,9 +49,9 @@ Example:
 
 - To test your code, run the following command in the command line:
 
-```bash
-python3 monthly_sales_analyzer.py
-```
+   ```bash
+   python3 monthly_sales_analyzer.py
+   ```
 
 ## Feeling confident? 😎:  
 - Add a function to find the day with the worst sales.

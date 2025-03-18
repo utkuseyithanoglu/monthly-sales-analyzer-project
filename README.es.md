@@ -49,9 +49,9 @@ Ejemplo:
 
 - Para probar tu código escribe el siguiente comando en la linea de comando:
 
-```bash
-python3 monthly_sales_analyzer.py
-```
+    ```bash
+    python3 monthly_sales_analyzer.py
+    ```
 
 ## ¿Te sientes confiado? 😎:  
 - Agrega una función para encontrar el día con las peores ventas.
