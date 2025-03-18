@@ -47,12 +47,11 @@ Example:
 
 - **`top_product(data)`:** Identify which product (A, B, or C) had the highest total sales.
 
+- To test your code, run the following command in the command line:
 
-### Tips  
-- Use `for` loops to iterate over `sales_data`.
-- Access dictionary values with `entry["key"]`.
-- Test small code snippets (e.g., sum 2 days) before scaling up.
-- Debug by printing intermediate results if something is wrong.
+```bash
+python3 monthly_sales_analyzer.py
+```
 
 ## Feeling confident? 😎:  
 - Add a function to find the day with the worst sales.

@@ -47,12 +47,11 @@ Ejemplo:
 
 - **`top_product(data)`:** Identifica qué producto (A, B o C) tuvo las ventas totales más altas.
 
+- Para probar tu código escribe el siguiente comando en la linea de comando:
 
-### Consejos  
-- Usa bucles `for` para iterar sobre `sales_data`.
-- Accede a los valores del diccionario con `entry["key"]`.
-- Prueba pequeños fragmentos de código (por ejemplo, suma 2 días) antes de escalar.
-- Depura imprimiendo resultados intermedios si algo está mal.
+```bash
+python3 monthly_sales_analyzer.py
+```
 
 ## ¿Te sientes confiado? 😎:  
 - Agrega una función para encontrar el día con las peores ventas.
