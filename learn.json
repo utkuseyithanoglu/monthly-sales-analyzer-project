@@ -1,0 +1,18 @@
+{
+    "title": {
+      "us": "Monthly Sales Analyzer",
+      "es": "Analizador de Ventas Mensuales"
+    },
+    "description": {
+      "us": "Analyze monthly sales data for three products over 20 days using basic Python skills.",
+      "es": "Analiza los datos de ventas mensuales de tres productos durante 20 días utilizando habilidades básicas de Python."
+    },
+    "preview": "https://github.com/4GeeksAcademy/monthly-sales-analyzer-project/blob/main/preview.jpeg=true",
+    "slug" : "monthly-sales-analyzer-project",
+    "projectType": "project",
+    "technologies": ["python", "data analysis"],
+    "template_url": "self",
+    "difficulty": "beginner",
+    "repository": "https://github.com/4GeeksAcademy/monthly-sales-analyzer-project",
+    "gitpod": true
+  }
