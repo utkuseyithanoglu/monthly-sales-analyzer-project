@@ -1,5 +1,7 @@
 # Monthly Sales Analyzer
 
+In this project, you will take on the role of a data analyst responsible for evaluating the sales performance of three products over a month. To do this, you will work with a dataset structured as a list of dictionaries, where each entry represents the daily sales of each product. Your task is to complete several Python functions that will allow you to calculate totals, averages, identify the most and least successful days, and analyze sales trends. As you complete each function, you will strengthen your data manipulation and programming logic skills, preparing yourself for future data science projects.
+
 <how-to-start>
    
 ### 🌱 How to start this project
