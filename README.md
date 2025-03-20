@@ -1,7 +1,6 @@
 # Monthly Sales Analyzer
 
-<onlyfor saas="false" withBanner="false">
-  
+<how-to-start>
 ### 🌱 How to start this project
 
 Follow these instructions:
@@ -10,7 +9,7 @@ Follow these instructions:
 2. Open the newly created repository in Codespace using the [Codespace button extension](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
 3. Once the VSCode in Codespace has finished opening, start your project by following the instructions below.
 
-</onlyfor>
+</how-to-start>
 
 
 ## 📝 Instructions
