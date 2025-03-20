@@ -1,5 +1,7 @@
 # Analizador de Ventas Mensuales
 
+En este proyecto, te pondrás en el papel de un analista de datos encargado de evaluar el rendimiento de ventas de tres productos durante un mes. Para ello, trabajarás con un conjunto de datos estructurado en una lista de diccionarios, donde cada entrada representa las ventas diarias de cada producto. Tu tarea será completar varias funciones en Python que te permitirán calcular totales, promedios, encontrar los días más y menos exitosos, y analizar tendencias de ventas. A medida que completes cada función, estarás fortaleciendo tus habilidades en manipulación de datos y lógica de programación, preparándote para futuros proyectos en ciencia de datos.
+
 <onlyfor saas="false" withBanner="false">
   
 ### 🌱 Cómo iniciar este proyecto
