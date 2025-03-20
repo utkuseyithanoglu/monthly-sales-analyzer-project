@@ -1,6 +1,7 @@
 # Monthly Sales Analyzer
 
 <how-to-start>
+   
 ### 🌱 How to start this project
 
 Follow these instructions:
