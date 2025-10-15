@@ -8,9 +8,9 @@ sales_data = [
     {"day": 6, "product_a": 230, "product_b": 199, "product_c": 202},
     {"day": 7, "product_a": 101, "product_b": 137, "product_c": 307},
     {"day": 8, "product_a": 137, "product_b": 179, "product_c": 341},
-    {"day": 9, "product_a": 287, "product_b": 70, "product_c": 310},
+    {"day": 9, "product_a": 287, "product_b": 70,  "product_c": 310},
     {"day": 10, "product_a": 157, "product_b": 71, "product_c": 238},
-    {"day": 11, "product_a": 148, "product_b": 108, "product_c": 319},
+    {"day": 11, "product_a": 148, "product_b": 108,"product_c": 319},
     {"day": 12, "product_a": 287, "product_b": 64, "product_c": 339},
     {"day": 13, "product_a": 289, "product_b": 100, "product_c": 257},
     {"day": 14, "product_a": 154, "product_b": 113, "product_c": 280},
@@ -24,30 +24,81 @@ sales_data = [
 
 def total_sales_by_product(data, product_key):
     """Calculates the total sales of a specific product in 30 days."""
-    pass
+    sum=0
+    for i in data:
+        sum+=i[product_key]
+    return sum
+
+
+
 
 
 def average_daily_sales(data, product_key):
     """Calculates the average daily sales of a specific product."""
-    pass
+    sum=0
+    for i in range(len(data)):
+        sum+=data[i][product_key]
+    return sum/len(data)
+
 
 
 def best_selling_day(data):
     """Finds the day with the highest total sales."""
-    pass
+    bestday=0
+    best=0
+    for i in data:
+        total=0
+        for a,b in i.items():
+            if a=="day":
+                pass
+            else:
+                total+=b
+        if total>best:
+            best=total
+            bestday=i['day']
+    return bestday
+
+
 
 
 def days_above_threshold(data, product_key, threshold):
     """Counts how many days the sales of a product exceeded a given threshold."""
-    pass
+    c=0
+    b=0
+    for i in data:
+        c=0
+        c+=i[product_key]
+        if c>threshold:
+            b+=1
+    return b
 
 
 def top_product(data):
     """Determines which product had the highest total sales in 30 days."""
-    pass
+    highest_a = 0
+    highest_b = 0
+    highest_c = 0
+    for i in data:
+        for a, b in i.items():
+            if a=="product_a":
+                highest_a+=b
+            if a=="product_b":
+                highest_b+=b
+            if a=="product_c":
+                highest_c+=b
+    return max(highest_a, highest_b, highest_c)
+print("Product with highest total sales:", top_product(sales_data))
 
 
 
+             
+
+            
+            
+        
+            
+            
+                    
 # Function tests
 print("Total sales of product_a:", total_sales_by_product(sales_data, "product_a"))
 print("Average daily sales of product_b:", average_daily_sales(sales_data, "product_b"))
